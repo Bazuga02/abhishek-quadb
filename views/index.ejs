@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,7 +41,7 @@
                 </ul>
                 <ul class="navbar-nav navbar-end">
                     <li class="nav-item">
-                        <a class="navbar-button-contact">Contact Us</a>
+                        <a class="navbar-button-contact">Connect Telegram</a>
                     </li>
                     <li class="nav-item theme-toggle-align">
                         <label class="custom-control teleport-switch">
@@ -108,7 +107,6 @@
                     <sup>High</sup><br>
                     <sub>Low</sub>
                 </th>
-                <th scope="col" class="text-center">Trade Time</th>
             </tr>
         </thead>
         <tbody>
@@ -137,9 +135,7 @@
                         <sup class="positive">₹ <%= doc.high %></sup><br>
                         <sub class="negative">₹ <%= doc.low %></sub>
                     </td>
-                    <td class="text-center">
-                        <%= doc.tradeTime %>
-                    </td>
+
                 </tr>
                 <% }); %>
         </tbody>
